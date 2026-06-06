@@ -21,9 +21,9 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-BASE = os.path.dirname(__file__)
-PROCESSED = os.path.join(BASE, "data/processed")
-MODELS    = os.path.join(BASE, "models")
+BASE = os.path.dirname(os.path.abspath(__file__))
+PROCESSED = os.path.join(BASE, "data", "processed")
+MODELS    = os.path.join(BASE, "data", "models")
 
 PALETTE = {
     "IndiGo":       "#2563EB",
