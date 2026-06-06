@@ -1,6 +1,6 @@
 data/raw/
-data/processed/
-models/
+# data/processed/
+# models/
 __pycache__/
 *.pyc
 .env
